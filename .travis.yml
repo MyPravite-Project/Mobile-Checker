@@ -6,6 +6,6 @@ install:
  - npm install
  - ./.travis-setup.sh
 script:
- - mocha --timeout 20000 --globals Intl,IntlPolyfill,ErrorHandler test/tests.js
+ - mocha -c --timeout 20000 --globals Intl,IntlPolyfill,ErrorHandler test/tests.js
 after_script:
   - npm run coveralls
