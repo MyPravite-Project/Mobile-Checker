@@ -12,7 +12,7 @@
     "css": "2.2",
     "easyimage": "2.1",
     "effective-domain-name-parser": "0.0.2",
-    "ejs": "2.4",
+    "ejs": "1.0.0",
     "express": "4.14.0",
     "headless": "1.0",
     "image-headers": "0.3",
